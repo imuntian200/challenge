@@ -1,0 +1,18 @@
+{
+    "ignore": [
+      ".git",
+      "node_modules/**/node_modules"
+    ],
+    "verbose": true,
+    "watch": [
+      ".env",
+      "index.js",
+      "core/",
+      "config/"
+    ],
+    "env": {
+      "NODE_ENV": "development",
+      "LOG_ERROR_STACK": "1"
+    },
+    "ext": "js,json"
+}

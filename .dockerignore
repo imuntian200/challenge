@@ -1,0 +1,27 @@
+# node
+
+node_modules
+
+# git
+
+.git
+
+.gitignore
+
+# docker
+
+Dockerfile
+
+# environments
+
+.env
+
+.env.*
+
+# other
+
+*.md
+
+docker-compose.*
+
+nodemon.json

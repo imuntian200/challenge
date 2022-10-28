@@ -1,0 +1,24 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:watch": "DEBUG=steplix*,steplix* NODE_ENV=development LOG_ERROR_STACK=1 nodemon -L"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "steplix-microservice": "git+https://oauth2:Ud3ea3XVH5ULcZhHD_5Z@gitlab.com/steplix/SteplixMicroservice.git#master"
+  },
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
